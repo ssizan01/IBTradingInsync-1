@@ -9,7 +9,7 @@ contract = Stock('AAPL','SMART','USD')
 
 ib.qualifyContracts(contract)
 
-
+##changing stuff to see if it goes to github
 
 #conParams.append(PriceCondition(0, contract.conId, "SMART", False, 112.0))
 lmt = LimitOrder('BUY', 100 ,110, algoStrategy='Adaptive',algoParams=[TagValue('adaptivePriority', 'Normal')],
