@@ -429,9 +429,9 @@ class IB:
         """
         return self.run(self.qualifyContractsAsync(*contracts))
 
-    def bracketOrder(self, action: str, quantity: float,
-            limitPrice: float, takeProfitPrice: float,
-            stopLossPrice: float) -> BracketOrder:
+    def bracketOrder(self, action: object, quantity: object,
+                     limitPrice: object, takeProfitPrice: object,
+                     stopLossPrice: object) -> object:
         """
         Create a limit order that is bracketed by a take-profit order and
         a stop-loss order. Submit the bracket like:
