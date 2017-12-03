@@ -66,7 +66,7 @@ def entryprice():
 
 risk = fullcandle1 *.5
 def stoplossprice():
-    entryprice() - risk
+    return entryprice() - risk
 
 
 
